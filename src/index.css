@@ -11,3 +11,178 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* Added by Self*/
+i{
+  cursor: pointer;
+}
+div.stickyFooterLogin {
+  /* position: -webkit-sticky;
+  position: sticky;
+  bottom: 0; */
+  padding-bottom:60px;
+}
+div.stickyFooterSignup{
+  padding-bottom:30px;
+}
+div.stickyFooterAbout{
+  padding-bottom:10px;
+}
+
+.card{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.boxFooter{
+	flex-basis: 20%;
+}
+.boxFooter div{
+	margin-top: 10px;
+	border-top: 1px solid #0d6efd;
+}
+.boxFooter div p{
+	font-size: 15px;
+	margin:10px 0;
+}
+.boxFooter div button{
+	background: transparent;
+	border:none;
+	outline: none;
+	border-radius: 8px;
+	padding: 10px 20px;
+	background: #0d6efd;
+	color: white;
+	margin-top: 15px;	
+}
+.card1{
+	width: 100%;
+	
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.card2{
+	align-items: flex-start;
+}
+footer{
+	/*background: url('image/footer-bg.png'); */
+	background-size:50% 50%;
+	width: 100%;
+	color: white;
+	padding: 10px;
+}
+footer div{
+	padding-top: 10px;
+}
+footer i{
+	font-size: 20px;
+	border:1px solid white;
+	padding: 10px;
+	border-radius: 8px;
+	margin:10px;
+	transition: 0.4s;
+	cursor: pointer;
+}
+footer i:hover{
+	background: #0d6efd;
+}
+footer p{
+	cursor: pointer;
+}
+
+footer p:hover{
+	color: #0d6efd;
+}
+.card-container{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+
+}
+.card-box{
+	flex-basis: 40%;
+	display: flex;
+}
+.card-box div{
+	padding: 15px;
+}
+.card-box img{
+	width: 50%;
+}
+.card-box img{
+	width: 100%;
+}
+.card-box span{
+	color: #0d6efd;	
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  /* .example {background: green;} */
+  .card1{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+}
+
+
+@media screen and (max-width: 770px){
+	nav{
+		padding:0 20px; 
+	}
+
+	.logo{
+		flex-basis: 100%;
+		text-align: center;
+	}
+	.menu a{
+		padding: 10px;
+	}
+	.swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+      }
+
+      .f-left{
+	flex-basis: 100%;
+}
+.f-right{
+	flex-basis: 100%;
+	margin-top: 15px;
+}
+.f-left .card-box{
+	flex-basis: 100%;
+	display: flex;
+	margin:15px 0;
+}
+#second{
+	width: 100%;
+	padding:0 50px;
+}
+.box{
+	flex-basis: 100%;
+	margin:15px 0;
+}
+.card2{
+  align-items: flex-start;
+}
+.card1{
+  align-items: flex-start;
+}
+
+}
