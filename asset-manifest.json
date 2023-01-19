@@ -1,7 +1,7 @@
 {
   "main.css": "/inotebookcloud1/static/css/main.c826b047.chunk.css",
-  "main.js": "/inotebookcloud1/static/js/main.21ae1fba.chunk.js",
-  "main.js.map": "/inotebookcloud1/static/js/main.21ae1fba.chunk.js.map",
+  "main.js": "/inotebookcloud1/static/js/main.a16f0eec.chunk.js",
+  "main.js.map": "/inotebookcloud1/static/js/main.a16f0eec.chunk.js.map",
   "static/js/1.1290fcc1.chunk.js": "/inotebookcloud1/static/js/1.1290fcc1.chunk.js",
   "static/js/1.1290fcc1.chunk.js.map": "/inotebookcloud1/static/js/1.1290fcc1.chunk.js.map",
   "runtime~main.js": "/inotebookcloud1/static/js/runtime~main.f85384e1.js",
@@ -9,6 +9,6 @@
   "static/media/deepak.jpg": "/inotebookcloud1/static/media/deepak.25fa4c9f.jpg",
   "static/css/main.c826b047.chunk.css.map": "/inotebookcloud1/static/css/main.c826b047.chunk.css.map",
   "index.html": "/inotebookcloud1/index.html",
-  "precache-manifest.29a1aff62978a6a9ef317c10be39484c.js": "/inotebookcloud1/precache-manifest.29a1aff62978a6a9ef317c10be39484c.js",
+  "precache-manifest.752a38197767846f9eea1e2b6f2a6afa.js": "/inotebookcloud1/precache-manifest.752a38197767846f9eea1e2b6f2a6afa.js",
   "service-worker.js": "/inotebookcloud1/service-worker.js"
 }
